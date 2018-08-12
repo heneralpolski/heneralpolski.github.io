@@ -37,7 +37,7 @@ h1.dev-name name{
 }
 
 h3.dev-details{
-	color: #111;
+	color: #fff;
 	font-family: Bungee;
 	font-size: 1.4em;
 	margin: 0;
@@ -46,7 +46,7 @@ h3.dev-details{
 }
 
 h3.dev-note{
-	color: #fff;
+	color: #111;
 	font-family: Bungee;
 	font-size: 1.2em;
 	margin-top: 10px;
