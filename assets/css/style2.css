@@ -101,6 +101,13 @@ div.dev-pf img{
 
 }
 
+div.contact-details h2{
+	color: #fff;
+	font-size: 1em;
+	font-family: Quicksand;
+	text-align: right;
+}
+
 
 
 /*--- iOS Landing Page Fix --*/
