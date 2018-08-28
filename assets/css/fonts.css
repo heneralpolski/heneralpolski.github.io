@@ -1,4 +1,6 @@
 
+/* FONTS */
+
 @font-face {
     font-family: 'sc';
     src: local('Shella - Clean Version'), local('ShellaClean'),
@@ -31,7 +33,6 @@
        url('../fonts/bungee-v3-latin-regular.svg#Bungee') format('svg'); /* Legacy iOS */
 }
 
-/* FONTS */
 
 @font-face {
   font-family: 'bs';

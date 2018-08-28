@@ -1,0 +1,137 @@
+body{
+	background: #34495e;
+	overflow-x: hidden;
+}
+
+.navbar.bg-cust{
+	background: #34495e;
+}
+
+li.cust a{
+	font-family: Fjalla One;
+	color: #fff!important;
+	font-size: 1.2em;
+	/*left: 10px;*/
+	margin-right: 10px;
+	margin-left: 10px;
+	letter-spacing: 3px;
+	text-align: right;
+	transition: color 1.5s;
+}
+
+li.cust a:hover{
+	color: #333 !important;
+	transition: color 0s;
+}
+
+button.navbar-toggler.cust{
+	border: 2px #fff solid;
+}
+
+div#main .row{
+	/*height: 500px!important;*/
+	/*background: #ccc;*/
+	margin-bottom: 100px;
+}
+
+img.logo{
+	height: 250px;
+	margin: 0px 0 0 0;
+	background: #fff;
+	border-radius: 180px;
+}
+
+div.dev-details{
+	width: 50%;
+	background: #000;
+	left: 20%;
+}
+
+div.dev-details h4{
+	font-family: Sanchez;
+	color: #fff;
+	font-size: 1em;
+	text-align: left;
+	letter-spacing: 3px;
+}
+
+h1.dev-job{
+	font-family: Ultra;
+	color: #fff;
+	font-size: 2em;
+	margin: 60px 0 20px 0;
+	background: rgba(0,0,0,0.4);
+}
+
+h3.dev-job-list{
+	font-family: /*Quicksand*/ Poiret One;
+	color: #fff;
+	font-size: 1.2em;
+}
+
+
+#portfolio{
+	background: #ced6e0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: Fjalla One;
+
+}
+
+div.dev-pf{
+	height: 350px;
+	font-family: Ultra;
+	color: #fff;
+	font-size: 2em;
+	margin: 60px 0 20px 0;
+	background: rgba(0,0,0,0.4);
+}
+
+div.dev-pf img{
+	height: 70%;
+}
+
+
+
+#contacts{
+	background: #34495e;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: Fjalla One;
+
+}
+
+
+
+/*--- iOS Landing Page Fix --*/
+.landing {
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  display: table;
+  background: #34495e;
+  z-index: -1;
+}
+.home-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner {
+  position: fixed;
+  display: table;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+
